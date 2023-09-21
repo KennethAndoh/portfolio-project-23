@@ -25,6 +25,20 @@ body{
     padding-left: 30rem;
 }
 
+::-webkit-scrollbar{
+    width: 1rem;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background: #3f1a61;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #4e2c6d;
+}
+
 section{
     padding: 1rem 5%;
     min-height: 100vh;
@@ -418,8 +432,10 @@ footer{
     margin-top: 2rem;
     font-size: 2rem;
     padding-top: 2.5rem;
+    padding-bottom: 2rem;
     color: #666;
     background: #fff;
+    text-align: center;
 }
 
 footer span{
