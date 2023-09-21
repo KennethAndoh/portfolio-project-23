@@ -5,20 +5,212 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kenneth Andoh - Front-End Developer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <nav class="desktop-nav">
-        <div class="logo">Kenneth Andoh</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
     
-    <script src="/index.js"></script>
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+   <!-- header section starts -->
+   <header>
+    <a href="#" class="logo">Kenneth.</a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="follow">
+        <a title="Dribbble" target="_blank" href="#" class="fab fa-dribbble"></a>
+        <a title="Github" target="_blank" href="#" class="fab fa-github"></a>
+        <a title="Instagram" target="_blank" href="#" class="fab fa-instagram"></a>
+        <a title="LinkedIn" target="_blank" href="#" class="fab fa-linkedin"></a>
+    </div>
+   </header>
+   <!-- header section ends -->
+   <!-- home section start -->
+   <section class="home" id="home">
+    <div class="content">
+        <span class="hi">hi there...</span>
+        <h3>i'm <span>kenneth andoh</span></h3>
+        <p class="info">front-end developer</p>
+        <p class="text">
+            very skillfull in bringing 
+            up new innovations and ideas
+        </p>
+        <a href="#about" class="btn">about me</a>
+    </div>
+   <div class="image">
+        <img src="/images /toon-profile.png" alt="toon profile">
+   </div>
+   </section>
+   <!-- home section ends -->
+
+   <!-- about section start -->
+   <section class="about" id="about">
+    <h1 class="heading">about <span>me</span></h1>
+    <div class="row-1">
+        <div class="image">
+            <img src="/images /programmer_v_02.jpg" alt="toon about profile">
+        </div>
+        <div class="content">
+            <h3>my name is kenneth andoh & i'm a front-end developer</h3>
+            <p>As a dedicated student, I'm a passionate frontend developer eager to learn and apply my skills. 
+               While lacking professional experience, I've embarked on various personal projects, 
+               demonstrating a keen eye for detail and problem-solving abilities. 
+               I value collaboration and am actively seeking opportunities to contribute to real-world projects. 
+               In my free time, I stay updated on design trends and engage with coding communities. 
+               I look forward to growing in the field and welcome any opportunities to apply my knowledge and creativity.</p>
+              
+        </div>
+    </div>
+    <div class="row-2">
+        <div class="banner">
+            <h3>i'm available for any front-end job opportunity</h3>
+            <a href="#contact" class="btn">hire me</a>
+        </div>
+    </div>
+   </section>
+   <!-- about section end -->
+   <!-- services section start -->
+   <section class="services" id="services">
+    <h1 class="heading">my <span>services</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="/images /s1.png" alt="services 1">
+            <h3>web development</h3>
+            <p>i specialize in providing custom web development
+                services, crafting digital experiences tailored to your needs.
+            </p>
+        </div>
+        <div class="box">
+            <img src="/images /s2.png" alt="services 2">
+            <h3>UI / UX design</h3>
+            <p>i create digital enviroments that 
+                engage and delight users. Let's turn your concepts
+                into user-friendly realities.
+            </p>
+        </div>
+        <div class="box">
+            <img src="/images /s3.png" alt="services 3">
+            <h3>responsive design</h3>
+            <p>i specialize in responsive design, ensuring
+                your website looks and works flawlessly on all devices.
+            </p>
+        </div>
+        <div class="box">
+            <img src="/images /s4.png" alt="services 4">
+            <h3>SEO optimization</h3>
+            <p>i'm also skilled in SEO optimization, boosting your
+                website's visibility on search engines. i will help your site rank higher
+                and improve your online presence.
+            </p>
+        </div>
+        <div class="box-2">
+            <div class="banner">
+                <h3>i'm available for any front-end job opportunity</h3>
+                <a href="#contact" class="btn">hire me</a>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!-- services section ends -->
+
+   <!-- portfolio start -->
+   <section class="portfolio" id="portfolio">
+    <h1 class="heading">my <span>portfolio</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="/images /site-p/note.png" alt="note project">
+            <h3>note keeper site</h3>
+            <div class="icons">
+                <a target="_blank" href="https://notekeeper-site.netlify.app/" class="fas fa-link"></a>
+                <a target="_blank" href="https://github.com/KennethAndoh/updated-projects-repo" class="fab fa-github"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images /site-p/game1.png" alt="game project">
+            <h3>tic tac toe game</h3>
+            <div class="icons">
+                <a target="_blank" href="https://ttt-web-game.netlify.app/" class="fas fa-link"></a>
+                <a target="_blank" href="https://github.com/KennethAndoh/tic-tac-toe" class="fab fa-github"></a>
+            </div>
+        </div>
+         <div class="box">
+            <img src="/images /site-p/track.png" alt="tracker project">
+            <h3>leads tracker</h3>
+            <div class="icons">
+                <a target="_blank" href="https://leads-tracker-site.netlify.app/" class="fas fa-link"></a>
+                <a target="_blank" href="https://github.com/KennethAndoh/leads-tracker" class="fab fa-github"></a>
+            </div>
+        </div>
+         <div class="box">
+            <img src="/images /site-p/todo.png" alt="todolist project">
+            <h3>todo list</h3>
+            <div class="icons">
+                <a target="_blank" href="https://todo-site.netlify.app/" class="fas fa-link"></a>
+                <a target="_blank" href="https://github.com/KennethAndoh/todo-app" class="fab fa-github"></a>
+            </div>
+        </div>
+         <div class="box">
+            <img src="/images /site-p/game2.png" alt="game project">
+            <h3>blackjack game</h3>
+            <div class="icons">
+                <a target="_blank" href="https://blackjack-web-game.netlify.app/" class="fas fa-link"></a>
+                <a target="_blank" href="https://github.com/KennethAndoh/blackjack" class="fab fa-github"></a>
+            </div>
+        </div>
+         <div class="box">
+            <img src="/images /site-p/calc.png" alt="BMI project">
+            <h3>BMI calculator</h3>
+            <div class="icons">
+                <a target="_blank" href="https://bodymassindex-site.netlify.app/" class="fas fa-link"></a>
+                <a target="_blank" href="https://github.com/KennethAndoh/bmi-calculator" class="fab fa-github"></a>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!-- portfolio end -->
+
+   <section class="contact" id="contact">
+    <h1 class="heading">contact <span>me</span></h1>
+        <div class="icons-container">
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>my email</h3>
+                <p>kencode22@gmail.com</p>
+                <p>kenandoh04@gmail.com</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>my number</h3>
+                <p>+233 597 557 733</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>my address</h3>
+                <p>Accra - Ghana, Pokuase (GW- 0085-8209)</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <form method="post" data-netlify="true">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="subject" class="box">
+
+                <textarea name="" placeholder="message" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+   </section>
+   <footer>Copyright &copy; 
+        <script>document.write(new Date().getFullYear());</script> 
+        <span>kenneth andoh</span> | all rights reserved
+    </footer>
+   <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
